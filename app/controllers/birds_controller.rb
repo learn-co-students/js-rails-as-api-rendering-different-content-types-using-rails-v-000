@@ -1,6 +1,7 @@
 class BirdsController < ApplicationController
   def index
-    @birds = Bird.all
-    render 'birds/index.html.erb'
+    # no longer need to use instance variables
+    birds = Bird.all
+    render json: birds
   end
 end
