@@ -16,6 +16,7 @@ useful to us as we build towards a Rails API.
 To follow along, run `rails db:migrate` and `rails db:seed` to set up your
 database and example data.
 
+
 ## Overriding the Default Rails View
 
 Leaving off from the solution of the last lesson, the `index` action rendered all
